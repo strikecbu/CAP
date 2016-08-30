@@ -4,7 +4,6 @@
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
 http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
     <import resource="classpath:sql/baseSQL.xml" />
-    <import resource="classpath:sql/batchSQL.xml" />
     <bean id="userSqlStatement" class="com.iisigroup.cap.jdbc.support.CapSqlStatement">
         <constructor-arg>
             <util:set value-type="java.util.HashMap">
